@@ -1,0 +1,82 @@
+header,section,aside,nav,article,figure,figcaption{
+    display: block;
+}
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 宋体，微软雅黑;
+    line-height: 1.4em;
+    margin:0px;
+    padding:0px;
+}
+.wrapper{
+    width:940px;
+    margin:0px auto 20px auto;
+    background-color: #f9f8f6;
+    border：2px solid #000000;
+
+}
+header{
+    height:160px;
+    background-image: url("images/header.png");
+}
+h1{
+    text-indent: -9999px;
+    width:940px;
+    height: 130px;
+    margin:0px;
+}
+nav{
+    clear:both;
+    color:#ffffff;
+    background-color: azure;
+    height:30px
+}
+nav u1{
+    margin:0px;
+    padding: 5px 0px 5px 30px;
+}
+nav li{
+    display:inline;
+    margin-right:90px;
+}
+nav li a{
+    color: #01939A;
+    font-family: 隶书;
+    font-size: 20px;
+    text-decoration:none;
+}
+nav li a:hover{
+    color:#000000;
+}
+section.course{
+    float:left;
+    width:659px;
+    border-right: 1px solid #eeeeee;
+}
+article{
+    clear:both;
+    overflow:auto;
+    width:100%;
+}
+p {
+    float: left;
+    width: 300px;
+    font-size: 16px;
+    font-style: italic;
+    margin: 50px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+figure{
+    float:left;
+    width:390px;
+    height: 219px;
+    padding:5px;
+    margin:20px;
+    border:1px solid #eeeeee;
+}
